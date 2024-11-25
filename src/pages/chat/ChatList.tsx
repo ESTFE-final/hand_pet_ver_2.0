@@ -1,8 +1,12 @@
 import React from "react";
 
-const ChatList:React.FC = () => {
+interface ChatListProps {
+    //
+}
+
+const ChatList = ({} : ChatListProps) => {
     return(
-        <></>
+        <>ChatList</>
     );
 }
 

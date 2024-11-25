@@ -1,6 +1,10 @@
 import React from "react";
 
-const Login:React.FC = () => {
+interface LoginProps {
+    //
+};
+
+const Login = ({}: LoginProps) => {
     return(
         <>Login</>
     );

@@ -35,7 +35,9 @@ function App() {
       <Route path="/" element={< />}/>
       <Route path="/" element={< />}/>
       <Route path="/" element={< />}/>
-      <Route path="/" element={< />}/> */}
+      <Route path="/" element={< />}/> 
+      아마 이런식으로 쭉...
+      */}
 
       <Route path="/*" element={<NotFound />}/>
     </Routes>

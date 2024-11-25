@@ -1,6 +1,10 @@
 import React from "react";
 
-const Main:React.FC = () => {
+interface MainProps {
+    //
+};
+
+const Main = ({}: MainProps) => {
     return(
         <>Main</>
     );

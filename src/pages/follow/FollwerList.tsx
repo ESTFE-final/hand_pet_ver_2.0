@@ -1,6 +1,10 @@
 import React from "react";
 
-const FollowerList:React.FC = () => {
+interface FollowerListProps {
+    //
+};
+
+const FollowerList = ({}: FollowerListProps) => {
     return(
         <>FollowerList</>
     );

@@ -1,7 +1,11 @@
 import React from "react";
 
-const FollowingList:React.FC = () => {
-    return(
+interface FollowingListProps {
+    //
+}
+
+const FollowingList = ({}: FollowingListProps) => {
+    return (
         <>FollowingList</>
     );
 }
