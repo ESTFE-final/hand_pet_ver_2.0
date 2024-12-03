@@ -6,7 +6,7 @@ interface MainProps {
 
 const Main = ({}: MainProps) => {
     return(
-        <>Main</>
+        <div style={{height: '2000px', backgroundColor: 'gray', color: 'white'}}>Main</div>
     );
 };
 

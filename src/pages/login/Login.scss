@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 100vh;
+    height: calc(100vh - 2.5rem);
 }
 
 .convinientLogin {
@@ -14,7 +14,6 @@
       width: 420px;
       padding: 20px 0;
       text-align: center;
-      border: 1px solid none;
       border-radius: 44px;
     }
     .kakaoLogin {
@@ -22,7 +21,7 @@
     }
     .googleLogin {
       background-color: #fff;
-      border-radius: 1px solid black;
+      box-shadow: 0 0 0 1px var(--black) inset;
     }
     .naverLogin {
       background-color: #03c75a;
