@@ -9,7 +9,7 @@ header {
     display: flex;
     gap: 36px;
     margin-left: -15vw;
-    // margin-left: clamp(-400px, -30vw, -200px); /* 최소값, 선호값, 최대값 */
+    // margin-left: clamp(-400px, -30vw, -200px);
     li {
       text-decoration: none;
       font-weight: 500;

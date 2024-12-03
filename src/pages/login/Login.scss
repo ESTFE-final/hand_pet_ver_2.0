@@ -1,0 +1,31 @@
+.loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.convinientLogin {
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    li {
+      width: 420px;
+      padding: 20px 0;
+      text-align: center;
+      border: 1px solid none;
+      border-radius: 44px;
+    }
+    .kakaoLogin {
+      background-color: #fae100;
+    }
+    .googleLogin {
+      background-color: #fff;
+      border-radius: 1px solid black;
+    }
+    .naverLogin {
+      background-color: #03c75a;
+    }
+  }
+}
