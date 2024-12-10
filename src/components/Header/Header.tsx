@@ -1,4 +1,4 @@
-import React from "react";
+// import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
 
@@ -6,6 +6,7 @@ interface HeaderProps {
   //
 }
 const Header = ({}: HeaderProps) => {
+
   return (
     <header>
       <div className="container">
