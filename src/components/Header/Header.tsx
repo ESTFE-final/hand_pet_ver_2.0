@@ -1,6 +1,7 @@
 // import React from "react";
 import { Link } from "react-router-dom";
 import "./Header.scss";
+import HANDPET from '../../assets/icons/HANDPET.svg'
 
 interface HeaderProps {
   //
@@ -12,7 +13,7 @@ const Header = ({}: HeaderProps) => {
       <div className="container">
         <div className="logo">
           <Link to="/" aria-label="홈화면으로 이동">
-            <img src="/Logo.png" alt="핸드펫 로고" />
+            <img src={HANDPET} alt="핸드펫 로고" />
           </Link>
         </div>
 

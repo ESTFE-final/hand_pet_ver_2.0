@@ -45,7 +45,7 @@
         .kakaoLogin {
           background-color: #fae100;
           a::before {
-            background-image: url("./kakaoLogo.svg");
+            background-image: url("../../assets/icons/kakaoLogo.svg");
           }
         }
     
@@ -53,14 +53,14 @@
           background-color: #fff;
           box-shadow: 0 0 0 1px var(--black) inset;
           a::before {
-            background-image: url("./googleLogo.svg");
+            background-image: url("../../assets/icons/googleLogo.svg");
           }
         }
     
         .naverLogin {
           background-color: #03c75a;
           a::before {
-            background-image: url("./naverLogo.svg");
+            background-image: url("../../assets/icons/naverLogo.svg");
           }
         }
       }
