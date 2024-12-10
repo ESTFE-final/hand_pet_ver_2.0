@@ -14,7 +14,7 @@
   .signUpEmail {
     display: flex;
     flex-direction: column;
-    gap: 1.8rem;
+    gap: 2.9rem;
 
     input {
       background-color: var(--graylight-100);
@@ -23,9 +23,14 @@
       width: 48rem;
       padding: 2.8rem 3.2rem;
       &:focus {
-        // border: 1px solid var(--primary);
         box-shadow: 0 0 0 1px var(--primary) inset;
       }
+    }
+    .wrongEmailType {
+      font-size: 1.4rem;
+      padding: 0 2.2rem;
+      padding-top: 1rem;
+      color: var(--danger);
     }
 
     .nextBtn {
