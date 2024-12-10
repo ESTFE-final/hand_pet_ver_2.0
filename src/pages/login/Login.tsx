@@ -10,7 +10,7 @@ const Login = ({}: LoginProps) => {
     <section className="loginPage">
       <div className="welcomeLogin">
         <h1>
-          핸드펫이 오신 것<br />을 환영합니다 :)
+          핸드펫이 오신 것을<br /> 환영합니다 :)
         </h1>
       </div>
 
