@@ -9,6 +9,7 @@ import FollowingList from "./pages/follow/FollowingList";
 import FollowerList from "./pages/follow/FollwerList";
 
 import Login from "./pages/login/Login";
+import LoginEmail from "./pages/login/LoginEmail";
 import SignUpEmail from "./pages/login/SignUpEmail";
 import FirstProfileSetting from "./pages/login/FirstProfileSetting";
 
@@ -33,6 +34,7 @@ function App() {
       <Route path="/following" element={<FollowingList />}/>
       <Route path="/login" element={<Login />}/>
       <Route path="/SignUpEmail" element={<SignUpEmail />}/>
+      <Route path="/LoginEmail" element={<LoginEmail />}/>
       <Route path="/FirstProfileSetting" element={<FirstProfileSetting />}/>
       <Route path="/post" element={<Post />}/>
       <Route path="/postedit" element={<PostEdit />}/>

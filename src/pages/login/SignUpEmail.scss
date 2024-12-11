@@ -4,11 +4,12 @@
   justify-content: center;
   align-items: center;
   height: calc(100vh - 2.5rem);
-  gap: 4rem;
+  // gap: 4rem;
 
   h1 {
     font-size: 4.2rem;
     line-height: 4.2rem;
+    margin-bottom: 4rem;
   }
 
   .signUpEmail {

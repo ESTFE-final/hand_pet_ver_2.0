@@ -31,7 +31,8 @@ const Login = ({}: LoginProps) => {
       <section className="emailLoginAndSignUp">
         <ul>
           <li>
-            <a href="#" id="emailLogin">이메일로 로그인</a>
+            <Link to="/LoginEmail" id="emailLogin">이메일로 로그인</Link>
+            {/* <a href="#" id="emailLogin">이메일로 로그인</a> */}
           </li>
           <li>
           <Link to="/SignUpEmail" id="signUp">회원가입</Link>
