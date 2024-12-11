@@ -34,7 +34,7 @@ const Login = ({}: LoginProps) => {
             <a href="#" id="emailLogin">이메일로 로그인</a>
           </li>
           <li>
-          <Link to="/signUpEmail" id="signUp">회원가입</Link>
+          <Link to="/SignUpEmail" id="signUp">회원가입</Link>
             {/* <a href="#" id="signUp">회원가입</a> */}
           </li>
         </ul>

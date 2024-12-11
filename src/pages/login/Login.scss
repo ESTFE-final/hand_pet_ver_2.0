@@ -76,7 +76,7 @@
           &:first-child a {
             &::after {
               content: '|';
-              // display: inline-block;
+              display: inline-block;
               margin: 0 12px;
             }
           }

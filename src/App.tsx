@@ -7,8 +7,11 @@ import Chat from "./pages/chat/Chat";
 import ChatList from "./pages/chat/ChatList";
 import FollowingList from "./pages/follow/FollowingList";
 import FollowerList from "./pages/follow/FollwerList";
+
 import Login from "./pages/login/Login";
 import SignUpEmail from "./pages/login/SignUpEmail";
+import FirstProfileSetting from "./pages/login/FirstProfileSetting";
+
 import Post from "./pages/post/Post";
 import PostEdit from "./pages/post/PostEdit";
 import PostList from "./pages/post/PostList";
@@ -29,7 +32,8 @@ function App() {
       <Route path="/follower" element={<FollowerList />}/>
       <Route path="/following" element={<FollowingList />}/>
       <Route path="/login" element={<Login />}/>
-      <Route path="/signUpEmail" element={<SignUpEmail />}/>
+      <Route path="/SignUpEmail" element={<SignUpEmail />}/>
+      <Route path="/FirstProfileSetting" element={<FirstProfileSetting />}/>
       <Route path="/post" element={<Post />}/>
       <Route path="/postedit" element={<PostEdit />}/>
       <Route path="/postlist" element={<PostList />}/>
