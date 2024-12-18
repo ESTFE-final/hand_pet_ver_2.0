@@ -1,0 +1,65 @@
+.profileContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: calc(100vh - 2.5rem);
+
+  .profileImg{
+    margin-bottom: 2.3rem;
+  }
+
+  .userInfo {
+    display: flex;
+    flex-direction: column;
+    gap: 3rem;
+  }
+
+  h1 {
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    margin-bottom: 1.3rem;
+  }
+  span {
+    color: #757575;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: 200;
+    margin-bottom: 3.2rem;
+  }
+
+  .Title {
+    color: #666666;
+    font-size: 1.8rem;
+    line-height: 1.8rem;
+    margin-bottom: 1.4rem;
+    padding-left: 3.2rem;
+    font-weight: 500;
+  }
+
+  .Input {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    background-color: var(--graylight);
+    border-radius: 44px;
+    border: 1px solid var(--graylight-100);
+    width: 48rem;
+    padding: 2.8rem 3.2rem;
+    &:focus {
+      box-shadow: 0 0 0 1px var(--primary) inset;
+    }
+  }
+  .wrongType {
+    font-size: 1.4rem;
+    padding: 0 2.2rem;
+    padding-top: 1rem;
+    color: var(--danger);
+  }
+
+  .nextBtn {
+    background-color: var(--gray-100);
+    border-radius: 44px;
+    text-align: center;
+    padding: 2.6rem;
+  }
+}
